@@ -1,0 +1,10 @@
+#!/bin/bash
+set -e -x
+###
+# Installing su-exec for non root launching
+###
+apk add --no-cache su-exec
+###
+# Adding entrypoint
+###
+mv /resources/entrypoint.sh /entrypoint.sh
