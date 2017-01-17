@@ -9,9 +9,9 @@ A couple of thing have been added. This image works well when used on a k8s
 cluster that uses `Persistent Volumes`.
 
 By default, the official container is runned as jenkins. Altough this is good, 
-when using k8s, he mounts the volume with root having as the only owner of the
-volume. This means that jenkins doesn't start as it doesn't have access to its 
-workspace.
+when using k8s, he mounts the volume with root as the only owner of the
+volume and as the only one who has access to it. This means that jenkins doesn't
+ start as it doesn't have access to its workspace.
 
 The workaround that was used is to launch the container as root user, change 
 permissions on the workspace folder to jenkins and then launch jenkins using the 
