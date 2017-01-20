@@ -4,6 +4,13 @@ This container contains jenkins. This will allow you to run jenkins in docker.
 It is based on the official alpine jenkins image but has some small added 
 features.
 
+## Tags
+Since there isn't anything special done in this image. We'll follow the jenkins release tags so that they check our.
+
+Be adviced that since we really don't like docker's latest tag on application containers, we won't publish a latest tag.
+
+To know which version are available, please check out the different tag on the docker hub
+
 ## Why not use the official image ?
 A couple of thing have been added. This image works well when used on a k8s 
 cluster that uses `Persistent Volumes`.
@@ -26,3 +33,6 @@ problem.
 If there is existing data (users, jobs, etc) on the mounted volume, it will use 
 these. If not, you just have to check the logs of the container for the 
 randomly generated password and start creating your users.
+
+## Comments & Issues
+If you have comments or detect an issue, please be adviced we don't check the docker hub comments. You can always contact us through the repository.
