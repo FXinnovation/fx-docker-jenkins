@@ -1,6 +1,6 @@
 FROM jenkins:2.32.2-alpine
 
-MAINTAINER FXinnovation
+MAINTAINER FXinnovation <cloudsquad@fxinnovation.com>
 
 USER root
 
