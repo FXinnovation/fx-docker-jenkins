@@ -1,5 +1,5 @@
 node {
-  dockerhub_repo = 'fxinnovation/terraform'
+  dockerhub_repo = 'fxinnovation/jenkins'
   ansiColor('xterm') {
     stage('checkout') {
       // Checking out scm
@@ -31,11 +31,6 @@ node {
            --build-arg \"VERSION\"=\"${tag_id}\" \
            --build-arg \"BUILD_DATE\"=\"\$(date -u +\"%Y-%m-%dT%H:%M:%SZ\")\" \
            -t ${dockerhub_repo}:${tag_id} ."
-    }
-    stage("test") {
-      // Testing Image Works
-      sh "docker run ${dockerhub_repo}:${tag_id} version"
-      sh "docker inspect ${dockerhub_repo}:${tag_id}"
     }
   }
 }
