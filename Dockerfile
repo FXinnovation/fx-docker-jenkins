@@ -1,5 +1,7 @@
 FROM jenkins:2.32.2-alpine
 
+ENV SUEXEC_VERSION=0.2-r0
+
 ARG BUILD_DATE
 ARG VCS_REF
 ARG VERSION
@@ -24,6 +26,7 @@ LABEL "maintainer"="cloudsquad@fxinnovation.com" \
       "org.label-schema.applications.jenkins.version"=$JENKINS_VERSION \
       "org.label-schema.applications.java.version"=$JAVA_VERSION \
       "org.label-schema.applications.tini.version"=$TINI_VERSION \
+      "org.label-schema.applications.tini.version"=$SUEXEC_VERSION \
       "org.label-schema.vcs-ref"=$VCS_REF \
       "org.label-schema.version"=$VERSION \
       "org.label-schema.build-date"=$BUILD_DATE \
