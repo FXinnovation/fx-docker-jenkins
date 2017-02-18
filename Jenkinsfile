@@ -32,5 +32,8 @@ node {
            --build-arg \"BUILD_DATE\"=\"\$(date -u +\"%Y-%m-%dT%H:%M:%SZ\")\" \
            -t ${dockerhub_repo}:${tag_id} ."
     }
+    stage("test") {
+      sh "docker inspect ${dockerhub_repo}:${tag_id}"
+    }
   }
 }
