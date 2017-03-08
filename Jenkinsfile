@@ -39,6 +39,7 @@ node {
       }
       stage("test") {
         sh "docker inspect ${dockerhub_repo}:${tag_id}"
+        message = "Docker build was succesfull"
       }
     }
   }catch (error){
