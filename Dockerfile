@@ -17,7 +17,7 @@ ENTRYPOINT ["/bin/tini", "--", "/entrypoint.sh"]
 LABEL "maintainer"="cloudsquad@fxinnovation.com" \
       "org.label-schema.name"="jenkins" \
       "org.label-schema.base-image.name"="docker.io/library/jenkins" \
-      "org.label-schema.base-image.version"="2.46.1-alpine" \
+      "org.label-schema.base-image.version"="2.46.2-alpine" \
       "org.label-schema.description"="Jenkins in a container" \
       "org.label-schema.url"="https://www.jenkins.io" \
       "org.label-schema.vcs-url"="https://bitbucket.org/fxadmin/public-common-docker-jenkins" \
