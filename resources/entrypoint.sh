@@ -3,7 +3,7 @@ set -e -x
 ###
 # Making sure data volume has correct permissions
 ###
-chown -R jenkins:jenkins /var/jenkins_home
+chown jenkins:jenkins /var/jenkins_home
 ###
 # Launching jenkins as jenkins user
 ###
