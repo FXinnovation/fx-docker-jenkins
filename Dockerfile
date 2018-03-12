@@ -12,7 +12,7 @@ ADD ./resources /resources
 
 RUN /resources/build && rm -rf resources
 
-ENTRYPOINT ["/bin/tini", "--", "/entrypoint.sh"]
+ENTRYPOINT ["/sbin/tini", "--", "/entrypoint.sh"]
 
 LABEL "maintainer"="cloudsquad@fxinnovation.com" \
       "org.label-schema.name"="jenkins" \
