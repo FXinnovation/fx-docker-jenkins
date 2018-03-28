@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.89.4-alpine
+FROM jenkins/jenkins:2.107.1-alpine
 
 ENV SUEXEC_VERSION=0.2-r0
 
@@ -17,7 +17,7 @@ ENTRYPOINT ["/sbin/tini", "--", "/entrypoint.sh"]
 LABEL "maintainer"="cloudsquad@fxinnovation.com" \
       "org.label-schema.name"="jenkins" \
       "org.label-schema.base-image.name"="docker.io/jenkins/jenkins" \
-      "org.label-schema.base-image.version"="2.89.4-alpine" \
+      "org.label-schema.base-image.version"="2.107.1-alpine" \
       "org.label-schema.description"="Jenkins in a container" \
       "org.label-schema.url"="https://www.jenkins.io" \
       "org.label-schema.vcs-url"="https://bitbucket.org/fxadmin/public-common-docker-jenkins" \
