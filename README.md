@@ -3,7 +3,6 @@
 ## Description
 This image contains jenkins. The image is based on the official alpine jenkins image. It should be more lightweight this way.
 
-
 ## Tags
 We do NOT push a `latest` tag for this image. You should always pin a specific version for it.
 We do not follow the jenkins release tags in the docker image tags. You can always find the jenkins version in the Dockerfile that was used to create the image or you can use the labels.
