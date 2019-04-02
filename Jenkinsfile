@@ -1,3 +1,3 @@
-fx_docker_image(
-  imageName: 'fxinnovation/jenkins'
+fxDockerImage(
+  image: 'jenkins'
 )
