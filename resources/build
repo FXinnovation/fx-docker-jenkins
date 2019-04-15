@@ -8,3 +8,10 @@ apk add --no-cache su-exec=$SUEXEC_VERSION
 # Adding entrypoint
 ###
 mv /resources/entrypoint.sh /entrypoint.sh
+
+###
+# CIS Hardening
+###
+touch /etc/login.defs
+chmod 0444 /etc/login.defs
+chmod 0600 /etc/shadow
