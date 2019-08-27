@@ -1,7 +1,6 @@
 FROM jenkins/jenkins:2.176.2-alpine
 
-ENV SUEXEC_VERSION=0.2-r0 \
-    
+ENV SUEXEC_VERSION=0.2-r0
 
 ARG BUILD_DATE
 ARG VCS_REF
