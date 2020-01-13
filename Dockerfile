@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.176.2-alpine
+FROM jenkins/jenkins:2.204.1-alpine
 
 ENV SUEXEC_VERSION=0.2-r0
 
