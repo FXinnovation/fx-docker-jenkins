@@ -1,3 +1,9 @@
+3.40.0
+======
+
+* maintenance: Pin jenkins to 2.249.3
+* chore: Update pre-commit config
+
 3.39.0
 ======
 
