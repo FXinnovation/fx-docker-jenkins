@@ -1,3 +1,8 @@
+3.41.0
+======
+
+* maintenance: Pin jenkins to 2.263.1
+
 3.40.0
 ======
 
