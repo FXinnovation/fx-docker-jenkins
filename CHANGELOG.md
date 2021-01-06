@@ -2,6 +2,8 @@
 ======
 
 * maintenance: Pin jenkins to 2.263.1
+* chore: Update pre-commit configuration
+* doc: Update documentation
 
 3.40.0
 ======
