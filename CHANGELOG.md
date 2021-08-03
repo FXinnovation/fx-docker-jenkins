@@ -1,3 +1,10 @@
+3.42.0
+======
+
+* maintenance: pins jenkins to 2.305-alpine
+* maintenance: pins pre-commit-afcmf to 0.1.2
+* maintenance: pins pre-commit-hooks to v4.0.1
+
 3.41.0
 ======
 
