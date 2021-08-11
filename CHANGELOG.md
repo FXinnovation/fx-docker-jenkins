@@ -1,14 +1,14 @@
 3.42.0
 ======
 
-* maintenance: pins jenkins to 2.305-alpine
-* maintenance: pins pre-commit-afcmf to 0.1.2
-* maintenance: pins pre-commit-hooks to v4.0.1
+* chore: pins jenkins to 2.305-alpine
+* chore: pins pre-commit-afcmf to 0.1.2
+* chore: pins pre-commit-hooks to v4.0.1
 
 3.41.0
 ======
 
-* maintenance: Pin jenkins to 2.263.1
+* chore: Pin jenkins to 2.263.1
 * chore: Update pre-commit configuration
 * doc: Update documentation
 
